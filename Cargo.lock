@@ -125,6 +125,7 @@ dependencies = [
  "age-core",
  "bech32",
  "chrono",
+ "gumdrop",
  "secrecy",
 ]
 
