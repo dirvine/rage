@@ -5,6 +5,8 @@
 #![deny(intra_doc_link_resolution_failure)]
 #![deny(missing_docs)]
 
+pub mod recipient;
+
 // Plugin HRPs are age1[name] and AGE-PLUGIN-[NAME]-
 const PLUGIN_RECIPIENT_PREFIX: &str = "age1";
 const PLUGIN_IDENTITY_PREFIX: &str = "age-plugin-";
