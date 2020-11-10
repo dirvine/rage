@@ -107,7 +107,7 @@ ssh = [
     "num-traits",
     "rsa",
 ]
-unstable = []
+unstable = ["age-core/unstable"]
 
 [lib]
 bench = false
